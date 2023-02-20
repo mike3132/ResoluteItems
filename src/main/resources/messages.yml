@@ -1,0 +1,65 @@
+#                                                     🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥
+#                                                   💻Resolute Items Messages💻
+#                                                   🔥Coded By Mike3132🔥
+#                                                   💻Resolute Items Messages💻
+#                                                     🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥🖥
+
+#✍✍✍✍ This file handles all messages for the plugin including the prefix.✍✍✍✍
+#✍✍✍✍ You can change anything here to be whatever custom stuff you want.✍✍✍✍
+#☠☠☠☠ DO NOT CHANGE THE "Messages:" line as this will break the plugin.☠☠☠☠
+#☠☠☠☠ ALL messages must have single quotes '' as seen in this default config.☠☠☠☠
+
+Messages:
+  #Plugin prefix for all messages.
+  Prefix: '&5Resolute &4Items &7> '
+
+  #♢♢♢♢♢ Player Messages ♢♢♢♢♢
+
+  #➳➳➳➳➳ Command Arguments ➳➳➳➳➳
+
+  #♢♢♢♢♢ No permission placeholder ♢♢♢♢♢
+  No-permissions-placeholder: '&4ERROR: &cYou do not have permission to execute this command.'
+
+  #♢♢♢♢♢ Not enough placeholder ♢♢♢♢♢
+  Not-enough-args-placeholder: '&4ERROR: &cNot enough command arguments.'
+
+  #♢♢♢♢♢ Give placeholder ♢♢♢♢♢
+  Not-give-placeholder: '&4ERROR: &cInvalid argument. &2Please use "Give" "List" "Reload."'
+
+  #♢♢♢♢♢ Player name placeholder ♢♢♢♢♢
+  Not-player-placeholder: '&4ERROR: &cPlease choose a player name.'
+
+  #♢♢♢♢♢ Player not found placeholder ♢♢♢♢♢
+  Player-not-found-placeholder: '&4ERROR: &cThis is not a player.'
+
+  #♢♢♢♢♢ Tool name placeholder ♢♢♢♢♢
+  Not-tool-placeholder: '&4ERROR: &cPlease choose a tool.'
+
+  #♢♢♢♢♢ Tool not found placeholder ♢♢♢♢♢
+  Tool-not-found-placeholder: '&4ERROR: &cThis is not a tool name.'
+
+  #♢♢♢♢♢ Player give placeholder ♢♢♢♢♢
+  Player-give-tool-placeholder: '&6You have been given a tool.'
+
+  #♢♢♢♢♢ Player inventory full placeholder ♢♢♢♢♢
+  Player-inventory-full-placeholder: '&6You do not have an available inventory slot, Your tools have been dropped on the ground.'
+
+
+
+
+  #➳➳➳➳➳ Help Section ➳➳➳➳➳
+
+  #♢♢♢♢♢ Tools list ♢♢♢♢♢
+  Tools-list-placeholder-header: '&e----- &6Current list of tools &e-----'
+  Tools-list-A: '&eSpawnerPick &7> &fWill silk touch any spawner'
+  Tools-list-B: '&4MoltenPick &7> &fAutomatically smelts blocks'
+  Tools-list-C: '&5MultiBlockPick &7> &fBreaks blocks in a 3x3x1'
+  Tools-list-placeholder-footer: '&e----------------------------------------'
+
+
+  #See config.yml for permissions, and other plugin configurations
+  #♏ If you have any questions please join my discord, open a support ticket and @Mike3132
+  #♏ https://discord.gg/EHm6Ra3K
+  #♏ Thanks for downloading and have a wonderful day
+  #♛♛♛♛♛ End of messages.yml ♛♛♛♛♛
+  #This is the default messages file.

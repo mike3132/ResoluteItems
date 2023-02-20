@@ -1,0 +1,11 @@
+name: ResoluteItems
+version: '${project.version}'
+main: net.resolutemc.resoluteitems.Main
+api-version: 1.19
+authors: [ Mike3132 ]
+description: ResoluteMC custom items plugin
+website: www.resolutemc.net
+commands:
+  resoluteitems:
+    description: Main command to give items
+    aliases: ri

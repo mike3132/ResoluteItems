@@ -32,17 +32,47 @@ Messages:
   #♢♢♢♢♢ Player not found placeholder ♢♢♢♢♢
   Player-not-found-placeholder: '&4ERROR: &cThis is not a player.'
 
-  #♢♢♢♢♢ Tool name placeholder ♢♢♢♢♢
-  Not-tool-placeholder: '&4ERROR: &cPlease choose a tool.'
+  #♢♢♢♢♢ Item name placeholder ♢♢♢♢♢
+  Not-Item-placeholder: '&4ERROR: &cPlease choose a item.'
 
-  #♢♢♢♢♢ Tool not found placeholder ♢♢♢♢♢
-  Tool-not-found-placeholder: '&4ERROR: &cThis is not a tool name.'
+  #♢♢♢♢♢ Item not found placeholder ♢♢♢♢♢
+  Item-not-found-placeholder: '&4ERROR: &cThis is not a item name.'
 
   #♢♢♢♢♢ Player give placeholder ♢♢♢♢♢
-  Player-give-tool-placeholder: '&6You have been given a tool.'
+  Player-give-tool-placeholder: '&6You have been given an item.'
 
   #♢♢♢♢♢ Player inventory full placeholder ♢♢♢♢♢
-  Player-inventory-full-placeholder: '&6You do not have an available inventory slot, Your tools have been dropped on the ground.'
+  Player-inventory-full-placeholder: '&6You do not have an available inventory slot, Your items have been dropped on the ground.'
+
+  #➳➳➳➳➳ General Talismans ➳➳➳➳➳
+
+  #♢♢♢♢♢ Cannot place talisman placeholder ♢♢♢♢♢
+  Player-Cannot-Place-Talisman-Placeholder: '&4Error: &cYou cannot place this talisman'
+
+  #♢♢♢♢♢ Cannot place in anvil ♢♢♢♢♢
+  Anvil-disabled-message: '&4ERROR: &cYou cannot modify this item.'
+
+
+
+  #➳➳➳➳➳ Sun Talisman ➳➳➳➳➳
+
+  #♢♢♢♢♢ Ability Activate ♢♢♢♢♢
+  Solar-Flare-Activate: "&eSolar Flare Activated"
+
+  #♢♢♢♢♢ Ability Deactivate ♢♢♢♢♢
+  Solar-Flare-Deactivate: "&eSolar Flare Deactivated"
+
+  #♢♢♢♢♢ Ability refreshed ♢♢♢♢♢
+  Solar-Flare-Ability-Refreshed: "&eSolar Flare Charged"
+
+  #♢♢♢♢♢ Ability on cooldown ♢♢♢♢♢
+  Solar-Flare-Ability-On-Cooldown: "&cSolar Flare recharging"
+
+  #♢♢♢♢♢ Use during the day message ♢♢♢♢♢
+  Sun-Talisman-Damage: "&4Warning: &cYou are overheating"
+
+
+
 
 
 
@@ -62,4 +92,4 @@ Messages:
   #♏ https://discord.gg/EHm6Ra3K
   #♏ Thanks for downloading and have a wonderful day
   #♛♛♛♛♛ End of messages.yml ♛♛♛♛♛
-  #This is the default messages file
+  #This is the default messages file.

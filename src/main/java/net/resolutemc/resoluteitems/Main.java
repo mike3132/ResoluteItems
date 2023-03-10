@@ -1,7 +1,11 @@
 package net.resolutemc.resoluteitems;
 
 import net.resolutemc.resoluteitems.CommandManager.ItemCommand;
+import net.resolutemc.resoluteitems.CommandManager.TabComplete;
 import net.resolutemc.resoluteitems.ConfigManager.ConfigLoader;
+import net.resolutemc.resoluteitems.Talismans.EventManager.PoseidonTalismanEvents;
+import net.resolutemc.resoluteitems.Talismans.EventManager.SunTalismanEvents;
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -20,17 +24,20 @@ public final class Main extends JavaPlugin {
         getServer().getConsoleSender().sendMessage(chatColor("&5Resolute &4Items &7> &2ENABLED"));
 
         // Event loader
+        Bukkit.getPluginManager().registerEvents(new SunTalismanEvents(), this);
+        Bukkit.getPluginManager().registerEvents(new PoseidonTalismanEvents(), this);
 
 
         // Command loader
         registerItemCommand();
+        registerTabComplete();
+
 
 
         // Config loader
         saveDefaultConfig();
         getConfig();
         ConfigLoader.MESSAGES.create();
-
 
     }
 
@@ -42,6 +49,9 @@ public final class Main extends JavaPlugin {
 
     public void registerItemCommand() {
         new ItemCommand();
+    }
+    public void registerTabComplete() {
+        new TabComplete();
     }
 
 

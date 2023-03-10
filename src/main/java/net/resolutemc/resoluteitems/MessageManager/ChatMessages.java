@@ -1,4 +1,4 @@
-package net.resolutemc.resoluteitems.ChatManager;
+package net.resolutemc.resoluteitems.MessageManager;
 
 import net.resolutemc.resoluteitems.Main;
 import org.bukkit.ChatColor;

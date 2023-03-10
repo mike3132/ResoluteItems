@@ -1,6 +1,6 @@
 package net.resolutemc.resoluteitems.CommandManager;
 
-import net.resolutemc.resoluteitems.ChatManager.ChatMessages;
+import net.resolutemc.resoluteitems.MessageManager.ChatMessages;
 import net.resolutemc.resoluteitems.GiveManager.ItemFactory;
 import net.resolutemc.resoluteitems.Main;
 import org.bukkit.Bukkit;
@@ -12,7 +12,6 @@ import org.bukkit.inventory.ItemStack;
 
 public class ItemCommand implements CommandExecutor {
 
-
     public ItemCommand() {
         Main.plugin.getCommand("ResoluteItems").setExecutor(this);
     }
@@ -23,17 +22,17 @@ public class ItemCommand implements CommandExecutor {
             return false;
         }
         if (args[0].equalsIgnoreCase("Reload")) {
-            if (!sender.hasPermission("ragnarokTools.Reload")) {
+            if (!sender.hasPermission("resoluteItems.Reload")) {
                 ChatMessages.sendConsoleMessage(sender, "No-permissions-placeholder");
                 return false;
             }
-            sender.sendMessage(Main.chatColor("&bRagnarok &6Tools &7> &aPlugin config reloaded in &2" + String.valueOf(System.currentTimeMillis() - 1) + " &ams"));
+            sender.sendMessage(Main.chatColor("&5Resolute &4Items &7> &aPlugin config reloaded in &2" + String.valueOf(System.currentTimeMillis() - 1) + " &ams"));
             Main.plugin.reloadConfig();
             return false;
         }
 
         if (args[0].equalsIgnoreCase("List")) {
-            if (!sender.hasPermission("ragnarokTools.List")) {
+            if (!sender.hasPermission("resoluteItems.List")) {
                 ChatMessages.sendConsoleMessage(sender, "No-permissions-placeholder");
                 return false;
             }
@@ -62,12 +61,12 @@ public class ItemCommand implements CommandExecutor {
             return false;
         }
         if (args.length < 3) {
-            ChatMessages.sendConsoleMessage(sender, "Not-tool-placeholder");
+            ChatMessages.sendConsoleMessage(sender, "Not-Item-placeholder");
             return false;
         }
         ItemStack item = ItemFactory.getItem(args[2]);
         if (item == null) {
-            ChatMessages.sendConsoleMessage(sender, "Tool-not-found-placeholder");
+            ChatMessages.sendConsoleMessage(sender, "Item-not-found-placeholder");
             return false;
         }
         int amount = 1;

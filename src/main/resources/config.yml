@@ -12,6 +12,32 @@ ConfigVersion: '1.0'
 
 
 
+#♢♢♢♢♢Sun Talisman Items♢♢♢♢♢
+
+#Sun Talisman Name -> Name of the talisman item (Please use & for color codes).
+Sun-Talisman-Name: '&eTalisman of the sun'
+
+#Sun Talisman Lore -> Any lore lines you would like on the Sun Talisman (Please use & for color codes).
+Sun-Talisman-Lore:
+  - '&5A relic of an ancient civilization'
+  - '&5It radiates light and heat'
+  - ''
+  - '&7"Keep your face to the sun and you'
+  - '&7Will never see the shadows" - Helen Keller'
+
+#Talisman of Poseidon Name -> Name of the talisman item (Please use & for color codes).
+Poseidon-Talisman-Name: '&bTalisman of Poseidon'
+
+#Talisman of Poseidon Lore -> Any lore lines you would like on the Sun Talisman (Please use & for color codes).
+Poseidon-Talisman-Lore:
+  - '&5It''s weighted heavily, covered'
+  - '&5in barnacles and living coral'
+  - ''
+  - '&7"She loves the serene brutality of the ocean,'
+  - '&7loves the electric power she felt with each breath'
+  - '&7of we briny air" -Holly Black, Tithe'
+
+
 
 
 

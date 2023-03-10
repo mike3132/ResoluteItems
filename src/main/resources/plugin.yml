@@ -5,6 +5,8 @@ api-version: 1.19
 authors: [ Mike3132 ]
 description: ResoluteMC custom items plugin
 website: www.resolutemc.net
+depend:
+  - HeadDatabase
 commands:
   resoluteitems:
     description: Main command to give items
